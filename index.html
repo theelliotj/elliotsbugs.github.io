@@ -33,10 +33,17 @@
   <section>
     <h1>Cat Pictures</h1>
     <p>
-      <img title="meow" src="bug.jpg" alt="This is a picture of an orange boi." width="144px" height="144px">
-      This are pictures of my cat, Bug.
+      <picture>
+        <source srcset="bug.jpg" media="(max-width: 600px)">
+        <source srcset="bug.jpg" media="(max-width: 1500px)">
+        <source srcset="bug.jpg">
+        <img title="meow" src="bug.jpg" alt="This is a picture of an orange boi.">
+      </picture>
+      These are pictures of my cat, Bug.
     </p>
   </section>
+
+ 
 
 
 <p id="demo">To: Annie</p>
