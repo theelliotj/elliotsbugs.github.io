@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color:mediumseagreen;
+}
+
+h1 {
+    text-align:center; 
+    border: 4px solid black;
+}
