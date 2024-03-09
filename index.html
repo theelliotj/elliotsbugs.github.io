@@ -34,8 +34,8 @@
     <h1>Cat Pictures</h1>
     <p>
       <picture>
+        <source srcset="bug.jpg" media="(max-width: 300px)">
         <source srcset="bug.jpg" media="(max-width: 600px)">
-        <source srcset="bug.jpg" media="(max-width: 1500px)">
         <source srcset="bug.jpg">
         <img title="meow" src="bug.jpg" alt="This is a picture of an orange boi.">
       </picture>
@@ -43,10 +43,12 @@
     </p>
   </section>
 
- 
+  <article>
+    <header>
 
-
-<p id="demo">To: Annie</p>
+    </header>
+  </article>
+  <p id="demo">To: Annie</p>
 <button type="button" onclick="myFunction()">Click me</button>
 
 <section>
