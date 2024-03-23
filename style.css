@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-img: beach1.jpg;
+    background-img: url(beach1.jpg);
 }
 
 p {
