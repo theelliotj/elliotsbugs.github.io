@@ -11,7 +11,9 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }
-
+.meow {
+    width: 100%;
+}
 .about {
     margin-left: 25px;
     margin-right: 25px;
