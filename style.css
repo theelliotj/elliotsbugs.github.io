@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("/beach1.jpg");
+    background-image: url(beach1.jpg);
     background-size: cover;
 }
 
