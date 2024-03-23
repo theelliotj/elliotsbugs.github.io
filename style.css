@@ -4,6 +4,7 @@ html {
 
 body {
     background-img: url(beach1.jpg);
+    background-size: cover;
 }
 
 p {
