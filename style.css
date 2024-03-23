@@ -7,6 +7,12 @@ body {
     background-size: cover;
 }
 
-figure {
-    
+.cat {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.about {
+    margin-left: 25px;
+    margin-right: 25px;
 }
